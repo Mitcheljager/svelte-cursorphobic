@@ -38,5 +38,13 @@
 	},
 	"svelte": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"type": "module"
+	"main": "./dist/index.js",
+	"type": "module",
+	"description": "Create cute animation with cursor reactive elements.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Mitcheljager/svelte-cursorphobic"
+	},
+	"homepage": "https://mitcheljager.github.io/svelte-cursorphobic/"
 }
