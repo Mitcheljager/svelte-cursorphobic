@@ -46,5 +46,8 @@
 		"type": "git",
 		"url": "https://github.com/Mitcheljager/svelte-cursorphobic"
 	},
-	"homepage": "https://mitcheljager.github.io/svelte-cursorphobic/"
+	"homepage": "https://mitcheljager.github.io/svelte-cursorphobic/",
+	"dependencies": {
+		"@sveltejs/adapter-static": "^3.0.1"
+	}
 }
