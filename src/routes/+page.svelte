@@ -32,11 +32,11 @@
 		<p>Install using Yarn or NPM.</p>
 
 		<code class="well">
-			yarn add <mark>svelte-cursorphobic</mark>
+			yarn add <mark>svelte-cursorphobic</mark> --dev
 		</code>
 
 		<code class="well">
-			npm install --save <mark>svelte-cursorphobic</mark>
+			npm install <mark>svelte-cursorphobic</mark> --save-dev
 		</code>
 
 		<p>Include the component in your app.</p>
