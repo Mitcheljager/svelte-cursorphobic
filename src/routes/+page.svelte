@@ -87,7 +87,7 @@
     <code class="well">
       &lt;div class="grid"&gt;<br>
       &nbsp;&nbsp;&#123;#each &#123; length: 80 &#125; as _&#125;<br>
-      &nbsp;&nbsp;&nbsp;&nbsp;&lt;<mark>Cursorphobic</mark> range="150" multiplier="0.1"&gt;<br>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;<mark>Cursorphobic</mark>&gt;<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;div class="element" /&gt;<br>
       &nbsp;&nbsp;&nbsp;&nbsp;&lt;/<mark>Cursorphobic</mark>&gt;<br>
       &nbsp;&nbsp;&#123;/each&#125; <br>
