@@ -1,58 +1,39 @@
-# create-svelte
+# Svelte Cursorphobic
 
-Everything you need to build a Svelte library, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/main/packages/create-svelte).
+[![npm version](https://badgen.net/npm/v/svelte-cursorphobic)](https://www.npmjs.com/package/svelte-cursorphobic)
+[![npm downloads](https://badgen.net/npm/dt/svelte-cursorphobic)](https://www.npmjs.com/package/svelte-cursorphobic)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/svelte-cursorphobic)](https://bundlephobia.com/package/svelte-cursorphobic)
 
-Read more about creating a library [in the docs](https://kit.svelte.dev/docs/packaging).
+A (very) lightweight component that makes elements afraid of your cursor. Used to easily create cute animations that react to your mouse.
 
-## Creating a project
+**Demo and Docs**: https://mitcheljager.github.io/svelte-cursorphobic/
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Installation
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
+Install using Yarn or NPM.
+```js
+yarn add cursorphobic --dev
+```
+```js
+npm install cursorphobic --save-dev
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+Include the component in your app.
+```js
+import Cursorphobic from "svelte-cursorphobic"
+```
+```svelte
+<Cursorphobic>...<Cursorphobic>
 ```
 
-Everything inside `src/lib` is part of your library, everything inside `src/routes` can be used as a showcase or preview app.
+## Usage
 
-## Building
+For detailed documentation and demos check out: [https://mitcheljager.github.io/svelte-cursorphobic/](https://mitcheljager.github.io/svelte-cursorphobic/)
 
-To build your library:
+### Properties
 
-```bash
-npm run package
-```
-
-To create a production version of your showcase app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
-
-## Publishing
-
-Go into the `package.json` and give your package the desired name through the `"name"` option. Also consider adding a `"license"` field and point it to a `LICENSE` file which you can create from a template (one popular option is the [MIT license](https://opensource.org/license/mit/)).
-
-To publish your library to [npm](https://www.npmjs.com):
-
-```bash
-npm publish
-```
+| Property | Default | Description |
+---|---|---
+range | 200 | Controls from how far away the component starts reacting to your cursor.
+multiplier | 0.1 | Controls how heavily an element reacts to your cursor.
+smoothing | 0.25 | Controls how quickly an element moves relative to changes in your cursor.
