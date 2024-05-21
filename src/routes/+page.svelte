@@ -82,7 +82,7 @@
   </div>
 
   <div class="block">
-    <p>Need a grid like the one at the top of the page? Svelte, along with some basic CSS, do the heavy lifting.</p>
+    <p>Need a grid like the one at the top of the page? Svelte, along with some basic CSS, does the heavy lifting.</p>
 
     <code class="well">
       &lt;div class="grid"&gt;<br>
